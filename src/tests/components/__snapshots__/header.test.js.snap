@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header correctly 1`] = `
+<header>
+  <h1>
+    Expensify
+  </h1>
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/dashboard"
+  >
+    Dashboard
+  </NavLink>
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/create"
+  >
+    Create Expense
+  </NavLink>
+  <NavLink
+    activeClassName="active"
+    ariaCurrent="true"
+    to="/help"
+  >
+    Help
+  </NavLink>
+  <button
+    id="logoutBtn"
+    onClick={[Function]}
+  >
+    Logout
+  </button>
+</header>
+`;
